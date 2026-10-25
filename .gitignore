@@ -1,0 +1,21 @@
+# .NET build output
+bin/
+obj/
+
+# SQLite database and auxiliary files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Editor and operating system files
+.vs/
+.vscode/
+.idea/
+.DS_Store
+
+# Local configuration and secrets
+.env
+.env.*
+appsettings.Development.json
